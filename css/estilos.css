@@ -20,6 +20,10 @@ body {
 
 /* ----- ----- HEADER ----- ----- */
 
+
+
+
+
 header {
 	width: 100%;
 	background: url('../img/bg.jpg'), #281a0c;
@@ -27,6 +31,10 @@ header {
 	background-attachment: fixed;
 	background-position: center 0;
 }
+
+
+
+
 
 header .contenedor {
 	position: relative;
@@ -51,6 +59,11 @@ header .menu a {
 header .menu a:hover {
 	text-decoration: underline;
 }
+
+
+
+
+
 
 header .textos {
 	width: 100%;
@@ -281,7 +294,7 @@ footer .copyright {
 }
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 	header .contenedor {
 		position: static;
 		height: auto;
@@ -336,6 +349,8 @@ footer .copyright {
 		width: 80%;
 		margin: auto;
 	}
+
+	
 }
 
 @media screen and (max-width: 400px) {
